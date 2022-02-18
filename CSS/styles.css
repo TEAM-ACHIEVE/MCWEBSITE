@@ -3,6 +3,7 @@ body{
     font-family: 'Montserrat',sans-serif;
     text-align: center;
     color: #fff;
+    position: relative;
 }
 h1, h2, h3, h4, h5{
     font-family: 'Montserrat-bold',sans-serif;
@@ -28,7 +29,7 @@ a{
     border-bottom-right-radius: 50% 40%;
 }
 .navbar{
-    padding: 0 0 2rem;
+    padding: 0 0 1.5rem;
 }
 
 .navbar-brand{
@@ -53,19 +54,24 @@ a{
     font-size: 2.5rem;
     line-height: 1.5;
     font-weight: 900;
-    text-align: right;
+    text-align: left;
 }
 /* title image */
 .title-image {
     margin:auto;
     width: 50%;
     padding: 0%;
-    text-align: left;
+    margin-left: 25% ;
     /* right: 30%; */
 }
 /* about me section */
 .aboutme-title{
-
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.aboutme-image{
+    width: 50%;
 }
 .ribbon{
     position: relative;
@@ -83,7 +89,6 @@ a{
     /* Hide the part of its children which is displayed outside */
     overflow: hidden;
 }
-
 .container__ribbon {
     /* Position */
     left: -64px;
@@ -98,12 +103,11 @@ a{
     transform: rotate(-45deg);
 
     /* Background color */
-    background-color: #9AD0EC;
+    background-color: #1572A1;
 
     /* Centerize the text content */
     text-align: center;
 }
-
 /* FOOTER SECTION */
 
 .copyRight{
