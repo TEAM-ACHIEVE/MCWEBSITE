@@ -130,8 +130,41 @@ services section */
     text-align: center;
 }
 /* SERVICE SECTION */
+.service-title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #ffff;
+}
 .services-image{
-    width: 25%;
+    width: 30%;
+    margin-bottom: 25px;
+}
+.services-button{
+    margin-bottom: 30px;
+}
+.btn-primary{
+    /* color: #053742; */
+    background-color: #053742;
+    border-color: #ffff;
+}
+.btn-primary:hover{
+    background-color: #053735;
+   
+}
+.card{
+    border-color: white;
+}
+.card-color{
+    background-color: #99DDCC;
+}
+.card-img-top{
+    width: 40%;
+    margin: auto;
+}
+.col-md-4{
+    text-align: center;
 }
 /* FOOTER SECTION */
 
