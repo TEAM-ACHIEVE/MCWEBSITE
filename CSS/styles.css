@@ -1,8 +1,8 @@
 body{
-    background-color: #FF5DA2;
+    background-color: #E8F0F2;
     font-family: 'Montserrat',sans-serif;
     text-align: center;
-    color: #fff;
+    color: black;
     position: relative;
 }
 h1, h2, h3, h4, h5{
@@ -12,10 +12,10 @@ a{
     color: #fff;
 }
 .blue-section{
-    background-color: #000D6B;
+    background-color: #053742;
 }
 .pink-section{
-    background-color: #FF5DA2;
+    background-color: #E8F0F2;
 }
 .topcontainer-fluid{
    padding: 5% 15%;
@@ -36,17 +36,21 @@ a{
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: bold;
-    color: #fff;
+    color: #E8F0F2;
 }
 
 .nav-item{
     padding: 0 18px;
-    color: #ffff;
+    color:  #E8F0F2;
 }
 
 .nav-link{
     font-size: 1.2rem;
     font-family: 'Montserrat-light', sans-serif;
+}
+
+.card{
+    border-color: #99DDCC;
 }
 
 /* title image */
@@ -63,7 +67,8 @@ a{
     font-size: 2.5rem;
     line-height: 1.5;
     font-weight: 900;
-    text-align: right;
+    text-align: center;
+    color: #E8F0F2;
 }
 
 /* about me section */
@@ -86,7 +91,11 @@ a{
 .ribbon{
     position: relative;
 }
-
+/* 
+services section */
+.skyblue{
+    background-color: #99DDCC;
+}
 .container__wrapper {
     /* Displayed at the top left corner */
     left: 0px;
@@ -115,10 +124,14 @@ a{
     transform: rotate(-45deg);
 
     /* Background color */
-    background-color: #000D6B;
+    background-color: #A2DBFA;
 
     /* Centerize the text content */
     text-align: center;
+}
+/* SERVICE SECTION */
+.services-image{
+    width: 25%;
 }
 /* FOOTER SECTION */
 
@@ -128,7 +141,7 @@ a{
 }
 /* footer section */
 .footer-icon{
-    color: white;
+    color: black;
     margin: 20px 10px;
     text-align: center;
 }
