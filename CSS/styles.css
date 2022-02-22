@@ -20,6 +20,9 @@ a{
 .topcontainer-fluid{
    padding: 5% 15%;
 }
+.servicecontainer-fluid{
+   padding: 4%;
+}
 .container-fluid{
    padding: 5% 10%;
 }
@@ -94,8 +97,9 @@ a{
 /* 
 services section */
 .skyblue{
-    background-color: #99DDCC;
+    background-color: #E8F0F2;
 }
+
 .container__wrapper {
     /* Displayed at the top left corner */
     left: 0px;
@@ -130,6 +134,9 @@ services section */
     text-align: center;
 }
 /* SERVICE SECTION */
+#services-section{
+    border-color: #A2DBFA;
+}
 .service-title{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -144,6 +151,10 @@ services section */
 .services-button{
     margin-bottom: 30px;
 }
+.services-box{
+    padding: 3%;
+    background-color: #39A2DB;
+}
 .btn-primary{
     /* color: #053742; */
     background-color: #053742;
@@ -154,14 +165,18 @@ services section */
    
 }
 .card{
-    border-color: white;
+    border-color: #A2DBFA;
+    margin-bottom: 5%;
 }
 .card-color{
-    background-color: #99DDCC;
+    background-color: #053742;
+    color: #E8F0F2;
 }
 .card-img-top{
     width: 40%;
     margin: auto;
+    padding-top: 5%;
+    color: #fff;
 }
 .col-md-4{
     text-align: center;
