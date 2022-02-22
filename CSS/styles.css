@@ -97,7 +97,7 @@ a{
 /* 
 services section */
 .skyblue{
-    background-color: #E8F0F2;
+    background-color: #053742;
 }
 
 .container__wrapper {
@@ -161,7 +161,7 @@ services section */
     border-color: #ffff;
 }
 .btn-primary:hover{
-    background-color: #053735;
+    background-color: black;
    
 }
 .card{
@@ -169,8 +169,7 @@ services section */
     margin-bottom: 5%;
 }
 .card-color{
-    background-color: #053742;
-    color: #E8F0F2;
+    background-color: #E8F0F2;
 }
 .card-img-top{
     width: 40%;
